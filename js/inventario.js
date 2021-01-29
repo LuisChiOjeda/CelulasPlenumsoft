@@ -1,0 +1,1 @@
+/*Disñeo del inventario */
