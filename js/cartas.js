@@ -54,6 +54,14 @@ let parUser2= 0;
             contUser2++;
         }
     }
+
+    if (contUser1>5) {
+        ganador.textContent=("El juagdor 1 es el ganador");
+    }else{
+        if (contacts2<5){
+            ganador.textContent=("El juagdor 2 es el ganador");
+        }
+    }
 return resultado.textContent=(`Jugador 1:${contUser1} pts------Jugador 2:${contUser2} pts`)
 
 }
